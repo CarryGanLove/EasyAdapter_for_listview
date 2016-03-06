@@ -16,7 +16,7 @@ if your listview contains more than one view type,you can add more item to list;
         list.add(new ViewBundle(R.layout.list_item_1, VHtype2.class));
         list.add(new ViewBundle(R.layout.list_item_2, VHtype3.class));
     }
-    ```
+```
 you can bind view in viewHolder by the butterKnife,and set the data in method setView():
 ```java
  static class VHtype1 extends BaseListAdapter.BaseViewHolder<ItemBean> {
@@ -29,5 +29,6 @@ you can bind view in viewHolder by the butterKnife,and set the data in method se
       //to set data
         textView.setText(bean.name);
     }
-}```
+}
+```
 now,everything is OK!running on set it to absListview by the method setAdapter!
