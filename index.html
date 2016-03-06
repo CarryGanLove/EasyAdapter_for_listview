@@ -28,26 +28,32 @@ Because the original BaseAdapter is complex when you over write it to implement 
 <h3>
 <a id="how" class="anchor" href="#how" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How?</h3>
 
-<p>if you want to use the baseListAdapter,you need to implement the method onBindViewHolder.The method allows you bind a layoutId with a relative viewHolder.Just like this:
-<a href="https://github.com/Override" class="user-mention">@Override</a>
-        protected void onBindViewHolder(List list) {
-            list.add(new ViewBundle(R.layout.list_item_0, VHtype1.class));<br>
-        }
-if your listview contains more than one view type,you can add more item to list;
-<a href="https://github.com/Override" class="user-mention">@Override</a>
-        protected void onBindViewHolder(List list) {
-            list.add(new ViewBundle(R.layout.list_item_0, VHtype1.class));
-            list.add(new ViewBundle(R.layout.list_item_1, VHtype2.class));
-            list.add(new ViewBundle(R.layout.list_item_2, VHtype3.class));
-        }
-you can bind view in viewHolder by the butterKnife,and set the data in method setView():
- static class VHtype1 extends BaseListAdapter.BaseViewHolder {
-        <a href="https://github.com/Bind" class="user-mention">@Bind</a>(R.id.img)
-        ImageView img;
-        <a href="https://github.com/Bind" class="user-mention">@Bind</a>(R.id.text)
-        TextView textView;</p>
+<p>if you want to use the baseListAdapter,you need to implement the method onBindViewHolder.The method allows you bind a layoutId with a relative viewHolder.Just like this:</p>
 
-<pre><code>    @Override
+<pre><code>@Override
+    protected void onBindViewHolder(List&lt;ViewBundle&gt; list) {
+        list.add(new ViewBundle(R.layout.list_item_0, VHtype1.class));       
+    }
+</code></pre>
+
+<p>if your listview contains more than one view type,you can add more item to list;</p>
+
+<pre><code>@Override
+    protected void onBindViewHolder(List&lt;ViewBundle&gt; list) {
+        list.add(new ViewBundle(R.layout.list_item_0, VHtype1.class));
+        list.add(new ViewBundle(R.layout.list_item_1, VHtype2.class));
+        list.add(new ViewBundle(R.layout.list_item_2, VHtype3.class));
+    }
+</code></pre>
+
+<p>you can bind view in viewHolder by the butterKnife,and set the data in method setView():</p>
+
+<pre><code> static class VHtype1 extends BaseListAdapter.BaseViewHolder&lt;ItemBean&gt; {
+    @Bind(R.id.img)
+    ImageView img;
+    @Bind(R.id.text)
+    TextView textView;
+    @Override
     public void setView(ItemBean bean, int position, Context context) {
       //to set data
         textView.setText(bean.name);
