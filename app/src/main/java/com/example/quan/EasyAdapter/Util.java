@@ -1,4 +1,4 @@
-package com.example.quan.myapplication;
+package com.example.quan.EasyAdapter;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;

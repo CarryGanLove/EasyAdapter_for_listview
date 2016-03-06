@@ -1,7 +1,6 @@
-package com.example.quan.myapplication;
+package com.example.quan.EasyAdapter;
 
 import android.content.Context;
-import android.text.TextUtils;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;

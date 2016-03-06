@@ -1,4 +1,4 @@
-package com.example.quan.myapplication;
+package com.example.quan.EasyAdapter;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

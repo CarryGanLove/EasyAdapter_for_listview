@@ -5,7 +5,7 @@ android {
     buildToolsVersion "22"
 
     defaultConfig {
-        applicationId "com.example.quan.myapplication"
+        applicationId "com.example.quan.EasyAdapter"
         minSdkVersion 11
         targetSdkVersion 22
         versionCode 1

@@ -1,4 +1,4 @@
-package com.example.quan.myapplication;
+package com.example.quan.EasyAdapter;
 
 /**
  * Created by GanQuan on 16/3/6.
