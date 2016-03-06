@@ -1,0 +1,390 @@
+{
+    "data": [
+        {
+            "id": "181831",
+            "title": "DOTA2上海特级锦标赛全程报道",
+            "date": "2016-02-18",
+            "pic": "http://img.dota2.com.cn/dota2/1c/f9/1cf9e93b639d18bfa7bdfd9bcd02d42d1455788518.png",
+            "url": "http://www.dota2.com.cn/wapnews/article/details/20160218/181831.html",
+            "desc": "",
+            "showComment": "false",
+            "type": "matchnews",
+            "isVideo": "false",
+            "newstype": "1",
+            "topicinfo": {
+                "title": "上海特级锦标赛全程报道",
+                "pic": "http://img.dota2.com.cn/file/4c/29/4c2924d23d3234e84b4af10be84f129b1455788171.png",
+                "url": "http://www.dota2.com.cn/theshanghaimajor/chinese/overview.htm",
+                "subtopic": [
+                    {
+                        "title": "战队介绍",
+                        "pic": "http://img.dota2.com.cn/file/ef/f0/eff05c2db6be7191a71bee63c6ae275e1455786074.png",
+                        "url": "http://www.dota2.com.cn/theshanghaimajor/chinese/teams"
+                    },
+                    {
+                        "title": "比赛直播",
+                        "pic": "http://img.dota2.com.cn/file/bf/45/bf45c8466d5ea7d7950aca4ad7e500331455786045.jpg",
+                        "url": "http://m.huomaotv.cn/index.php?c=html&a=video&id=5103"
+                    },
+                    {
+                        "title": "赛程赛果",
+                        "pic": "http://img.dota2.com.cn/file/0a/22/0a227e8401107a26d02805423bdb658d1455786060.png",
+                        "url": "http://www.dota2.com.cn/theshanghaimajor/chinese/schedule"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "182691",
+            "title": "上海特级锦标赛套票所赠礼包兑换已经结束",
+            "date": "2016-03-06",
+            "pic": "http://img.dota2.com.cn/dota2/c8/30/c83000bb7087e3860843bbcd934f2e381457248182.jpg",
+            "url": "http://www.dota2.com.cn/wapnews/article/details/20160306/182691.html",
+            "desc": "上海特锦赛现场礼包兑换活动已于3月6日下午1点结束，仍未及时兑换的玩家，请保存好您的门票及礼包兑换券，我们会在比赛结束后统一邮寄，详情请继续关注官网。",
+            "showComment": "false",
+            "type": "govnews",
+            "isVideo": "false",
+            "newstype": "0",
+            "topicinfo": {}
+        },
+        {
+            "id": "182651",
+            "title": "上海特锦赛主赛事第四日 Secret率先进入总决赛",
+            "date": "2016-03-06",
+            "pic": "http://img.dota2.com.cn/dota2/df/51/df51d0ec7e50ca0900346ed02509158b1457225504.jpg",
+            "url": "http://www.dota2.com.cn/wapnews/article/details/20160306/182651.html",
+            "desc": "今天是DOTA2上海特锦赛主赛事的第四日，比赛已进入到了最后的淘汰阶段。在今天的比赛中，败者组MVP以及EG均以2-0的比分分别淘汰对手Fnatic以及col。随后MVP和EG对决败者组，EG以2-0的比分击败MVP晋级败者组决赛。胜者组决赛由Secret2-0击败Liquid后锁定决赛席位。",
+            "showComment": "true",
+            "type": "matchnews",
+            "isVideo": "false",
+            "newstype": "0",
+            "topicinfo": {}
+        },
+        {
+            "id": "182641",
+            "title": "TI5视频大赛得奖团队新作：拆塔英雄之风行篇",
+            "date": "2016-03-05",
+            "pic": "http://img.dota2.com.cn/dota2/69/fb/69fba14f1710f644672f6b2f7f9223781457175632.jpg",
+            "url": "http://www.dota2.com.cn/wapnews/article/details/20160305/182641.html",
+            "desc": "2015年的西雅图DOTA2 TI5比赛现场，一部由中国玩家团队制作的3D动画短片惊艳全场，这部视频动画短片是视频大赛的得奖作品，在DPTA22玩家中造成不小的轰动。",
+            "showComment": "false",
+            "type": "govnews",
+            "isVideo": "false",
+            "newstype": "0",
+            "topicinfo": {}
+        },
+        {
+            "id": "181831",
+            "title": "DOTA2上海特级锦标赛全程报道",
+            "date": "2016-02-18",
+            "pic": "http://img.dota2.com.cn/dota2/1c/f9/1cf9e93b639d18bfa7bdfd9bcd02d42d1455788518.png",
+            "url": "http://www.dota2.com.cn/wapnews/article/details/20160218/181831.html",
+            "desc": "",
+            "showComment": "false",
+            "type": "matchnews",
+            "isVideo": "false",
+            "newstype": "1",
+            "topicinfo": {
+                "title": "上海特级锦标赛全程报道",
+                "pic": "http://img.dota2.com.cn/file/4c/29/4c2924d23d3234e84b4af10be84f129b1455788171.png",
+                "url": "http://www.dota2.com.cn/theshanghaimajor/chinese/overview.htm",
+                "subtopic": [
+                    {
+                        "title": "战队介绍",
+                        "pic": "http://img.dota2.com.cn/file/ef/f0/eff05c2db6be7191a71bee63c6ae275e1455786074.png",
+                        "url": "http://www.dota2.com.cn/theshanghaimajor/chinese/teams"
+                    },
+                    {
+                        "title": "比赛直播",
+                        "pic": "http://img.dota2.com.cn/file/bf/45/bf45c8466d5ea7d7950aca4ad7e500331455786045.jpg",
+                        "url": "http://m.huomaotv.cn/index.php?c=html&a=video&id=5103"
+                    },
+                    {
+                        "title": "赛程赛果",
+                        "pic": "http://img.dota2.com.cn/file/0a/22/0a227e8401107a26d02805423bdb658d1455786060.png",
+                        "url": "http://www.dota2.com.cn/theshanghaimajor/chinese/schedule"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "182611",
+            "title": "上海特锦赛主赛事第三日 豪强纷纷爆冷",
+            "date": "2016-03-05",
+            "pic": "http://img.dota2.com.cn/dota2/4e/47/4e47f91daa1d59c9fdd980a122dda3ca1457157328.jpg",
+            "url": "http://www.dota2.com.cn/wapnews/article/details/20160305/182611.html",
+            "desc": "今天是DOTA2上海特锦赛主赛事的第三日，比赛已经到了白热化阶段，剩下的八支战队也将在今天进行更加激烈的比赛。在今天的比赛中，TI3冠军Alliance和法兰克福特锦赛冠军OG遭到淘汰，剩余六支队伍分别是：Secret,Liquid,EG,COL,MVP,Fnatic。欧洲美洲和亚洲各有两支队伍继续存活。",
+            "showComment": "true",
+            "type": "matchnews",
+            "isVideo": "false",
+            "newstype": "0",
+            "topicinfo": {}
+        },
+        {
+            "id": "182581",
+            "title": "上海特锦赛主赛事第二日   中国军团无缘八强",
+            "date": "2016-03-04",
+            "pic": "http://img.dota2.com.cn/dota2/67/86/67867b8b7fc85a75982f85ed8084ae581457031861.jpg",
+            "url": "http://www.dota2.com.cn/wapnews/article/details/20160304/182581.html",
+            "desc": "3月3日，DOTA2上海特级锦标赛已进行到第二天的赛程，这一天，Ehome，LGD，Newbee战队惨遭淘汰，至此中国军团全军覆没。目前还在赛场的队伍分别是Liquid，MVP.Phx，Sercet，EG，Alliance，COL，OG，Fantic战队。",
+            "showComment": "true",
+            "type": "matchnews",
+            "isVideo": "false",
+            "newstype": "0",
+            "topicinfo": {}
+        },
+        {
+            "id": "181831",
+            "title": "DOTA2上海特级锦标赛全程报道",
+            "date": "2016-02-18",
+            "pic": "http://img.dota2.com.cn/dota2/1c/f9/1cf9e93b639d18bfa7bdfd9bcd02d42d1455788518.png",
+            "url": "http://www.dota2.com.cn/wapnews/article/details/20160218/181831.html",
+            "desc": "",
+            "showComment": "false",
+            "type": "matchnews",
+            "isVideo": "false",
+            "newstype": "1",
+            "topicinfo": {
+                "title": "上海特级锦标赛全程报道",
+                "pic": "http://img.dota2.com.cn/file/4c/29/4c2924d23d3234e84b4af10be84f129b1455788171.png",
+                "url": "http://www.dota2.com.cn/theshanghaimajor/chinese/overview.htm",
+                "subtopic": [
+                    {
+                        "title": "战队介绍",
+                        "pic": "http://img.dota2.com.cn/file/ef/f0/eff05c2db6be7191a71bee63c6ae275e1455786074.png",
+                        "url": "http://www.dota2.com.cn/theshanghaimajor/chinese/teams"
+                    },
+                    {
+                        "title": "比赛直播",
+                        "pic": "http://img.dota2.com.cn/file/bf/45/bf45c8466d5ea7d7950aca4ad7e500331455786045.jpg",
+                        "url": "http://m.huomaotv.cn/index.php?c=html&a=video&id=5103"
+                    },
+                    {
+                        "title": "赛程赛果",
+                        "pic": "http://img.dota2.com.cn/file/0a/22/0a227e8401107a26d02805423bdb658d1455786060.png",
+                        "url": "http://www.dota2.com.cn/theshanghaimajor/chinese/schedule"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "182561",
+            "title": "完美世界萧泓：电竞产业需要泛娱乐跨界融合",
+            "date": "2016-03-03",
+            "pic": "http://img.dota2.com.cn/dota2/3e/6b/3e6b33f256d095d9e2374509dea450641457009794.jpg",
+            "url": "http://www.dota2.com.cn/wapnews/article/details/20160303/182561.html",
+            "desc": "2016年3月2日，完美世界主办的DOTA2上海特级锦标赛正式拉开战幕。现场，完美世界CEO萧泓在接受采访时特别表示：电竞的娱乐化发展已经成为了一种趋势，电竞与文化娱乐产业的跨界融合，能够更快更好的促进电竞产业的普及与发展。",
+            "showComment": "false",
+            "type": "govnews",
+            "isVideo": "false",
+            "newstype": "0",
+            "topicinfo": {}
+        },
+        {
+            "id": "182551",
+            "title": "林俊杰音乐包上架 现在购买打折获尊享头衔",
+            "date": "2016-03-03",
+            "pic": "http://img.dota2.com.cn/dota2/cb/24/cb2409cee476ddb456c8b1754bd039d21456996572.jpg",
+            "url": "http://www.dota2.com.cn/wapnews/article/details/20160303/182551.html",
+            "desc": "2月26日，DOTA2客服端更新了由林俊杰（JJ Lin)及团队制作的dota2游戏音乐包。本次音乐捆绑包配合上海特级锦标赛的开幕而出世，内含一个传说品质的音乐包和神话品质的圣堂刺客套装。",
+            "showComment": "true",
+            "type": "govnews",
+            "isVideo": "false",
+            "newstype": "0",
+            "topicinfo": {}
+        },
+        {
+            "id": "182511",
+            "title": "上海特锦赛主赛事首日 VG&CDEC遭淘汰",
+            "date": "2016-03-03",
+            "pic": "http://img.dota2.com.cn/dota2/44/da/44da6aec89f2b371ddbff925b8dea2bb1456977081.jpg",
+            "url": "http://www.dota2.com.cn/wapnews/article/details/20160303/182511.html",
+            "desc": "2016年3月2日，上海特锦赛开始主赛事阶段的争夺。在精彩的比赛后，Liquid和MVP.Phx战队晋级胜者组第二轮，而EHOME、COL、VP和Newbee也顺利迈过败者组第一轮，继续征程！",
+            "showComment": "false",
+            "type": "matchnews",
+            "isVideo": "false",
+            "newstype": "0",
+            "topicinfo": {}
+        },
+        {
+            "id": "182501",
+            "title": "DOTA2上海特级锦标赛今日开幕 引全球关注",
+            "date": "2016-03-02",
+            "pic": "http://img.dota2.com.cn/dota2/8d/22/8d22b9c2c811127978a21177dc6fef871456916806.jpg",
+            "url": "http://www.dota2.com.cn/wapnews/article/details/20160302/182501.html",
+            "desc": "3月2日，上海特级锦标赛于梅赛德斯奔驰文化中心正式开幕，完美世界CEO萧泓亲临现场并发表讲话，感谢来到现场以及观看网络直播的所有DOTA2玩家，同时为大家隆重揭晓本届上海特锦赛的16支顶尖DOTA2战队。",
+            "showComment": "true",
+            "type": "matchnews",
+            "isVideo": "false",
+            "newstype": "0",
+            "topicinfo": {}
+        },
+        {
+            "id": "182491",
+            "title": "上海特级锦标赛套票所赠礼包兑换须知",
+            "date": "2016-03-02",
+            "pic": "http://img.dota2.com.cn/dota2/00/f4/00f46e3f6b2b79fe046372c7c453e67c1456887281.jpg",
+            "url": "http://www.dota2.com.cn/wapnews/article/details/20160302/182491.html",
+            "desc": "购买上海特级锦标赛VIP门票及普通票（套票）的玩家，请持上海特锦赛礼包兑换券至梅赛德斯奔驰原售票厅（位于梅赛德斯奔驰艺术中心西门，星巴克咖啡对面）进行礼包兑换。",
+            "showComment": "true",
+            "type": "govnews",
+            "isVideo": "false",
+            "newstype": "0",
+            "topicinfo": {}
+        },
+        {
+            "id": "181831",
+            "title": "DOTA2上海特级锦标赛全程报道",
+            "date": "2016-02-18",
+            "pic": "http://img.dota2.com.cn/dota2/1c/f9/1cf9e93b639d18bfa7bdfd9bcd02d42d1455788518.png",
+            "url": "http://www.dota2.com.cn/wapnews/article/details/20160218/181831.html",
+            "desc": "",
+            "showComment": "false",
+            "type": "matchnews",
+            "isVideo": "false",
+            "newstype": "1",
+            "topicinfo": {
+                "title": "上海特级锦标赛全程报道",
+                "pic": "http://img.dota2.com.cn/file/4c/29/4c2924d23d3234e84b4af10be84f129b1455788171.png",
+                "url": "http://www.dota2.com.cn/theshanghaimajor/chinese/overview.htm",
+                "subtopic": [
+                    {
+                        "title": "战队介绍",
+                        "pic": "http://img.dota2.com.cn/file/ef/f0/eff05c2db6be7191a71bee63c6ae275e1455786074.png",
+                        "url": "http://www.dota2.com.cn/theshanghaimajor/chinese/teams"
+                    },
+                    {
+                        "title": "比赛直播",
+                        "pic": "http://img.dota2.com.cn/file/bf/45/bf45c8466d5ea7d7950aca4ad7e500331455786045.jpg",
+                        "url": "http://m.huomaotv.cn/index.php?c=html&a=video&id=5103"
+                    },
+                    {
+                        "title": "赛程赛果",
+                        "pic": "http://img.dota2.com.cn/file/0a/22/0a227e8401107a26d02805423bdb658d1455786060.png",
+                        "url": "http://www.dota2.com.cn/theshanghaimajor/chinese/schedule"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "182471",
+            "title": "上海特锦赛开放“月亮船”取票窗口公告",
+            "date": "2016-03-01",
+            "pic": "http://img.dota2.com.cn/dota2/9b/91/9b91ad2009a3ac296728548dd6d85b411456839974.jpg",
+            "url": "http://www.dota2.com.cn/wapnews/article/details/20160301/182471.html",
+            "desc": "上海特级锦标赛将于3月2日-3月6日在梅赛德斯奔驰文化中心举行，目前还有部分购买了本次上海特锦赛线下门票的观众还没有取到票。为了玩家观战顺利，不在取票地点造成拥堵和滞留，我们开设了新的取票区域，请各位玩家前往该处取得赛事门票。",
+            "showComment": "false",
+            "type": "govnews",
+            "isVideo": "false",
+            "newstype": "0",
+            "topicinfo": {}
+        },
+        {
+            "id": "182461",
+            "title": "DOTA2上海特级锦标赛主赛事明日开战",
+            "date": "2016-03-01",
+            "pic": "http://img.dota2.com.cn/dota2/1a/f8/1af8a51f04e47e9a1f4632b736a7007c1456833055.jpg",
+            "url": "http://www.dota2.com.cn/wapnews/article/details/20160301/182461.html",
+            "desc": "北京时间3月2日－6日，每天上午10:00起都将进行上海特级锦标赛主赛事阶段的比赛，经过小组赛4天的厮杀，排名小组前二的队伍已晋级主赛事的胜者组，而靠后的两支队伍已进入败者组。2天的休息以后，好戏将在梅赛德斯奔驰文化中心继续上演，最终的总冠军争夺战会在3月6日进行。",
+            "showComment": "false",
+            "type": "matchnews",
+            "isVideo": "false",
+            "newstype": "0",
+            "topicinfo": {}
+        },
+        {
+            "id": "182441",
+            "title": "小组赛红黑榜：失落的西恩DOTA",
+            "date": "2016-03-01",
+            "pic": "http://img.dota2.com.cn/dota2/fe/00/fe00328995588a6e4a49eb82f2822fab1456816313.jpg",
+            "url": "http://www.carry6.com/dota2/m/201603/0485562252.html",
+            "desc": "特锦赛小组赛结束，红黑榜又会有哪些人呢？",
+            "showComment": "true",
+            "type": "medianews",
+            "isVideo": "false",
+            "newstype": "0",
+            "topicinfo": {}
+        },
+        {
+            "id": "182431",
+            "title": "专访Archon：目标是前八",
+            "date": "2016-03-01",
+            "pic": "http://img.dota2.com.cn/dota2/31/81/31811d74fcdf1a9c76ef82317bda911e1456816276.jpg",
+            "url": "http://www.carry6.com/dota2/m/201603/0248462248.html",
+            "desc": "Archon作为从美洲区预选第一名，以黑马的姿态进入冬季赛。",
+            "showComment": "true",
+            "type": "medianews",
+            "isVideo": "false",
+            "newstype": "0",
+            "topicinfo": {}
+        },
+        {
+            "id": "182421",
+            "title": "NB：天赋异禀不等于一路告捷",
+            "date": "2016-03-01",
+            "pic": "http://img.dota2.com.cn/dota2/54/92/54925ec4be28ac3d3d25f4cfc8e43e251456816244.jpg",
+            "url": "http://www.carry6.com/dota2/m/201603/0114462245.html",
+            "desc": "天赋是这支队伍的迷人之处，不努力却也让人为之感到怒其不争。",
+            "showComment": "true",
+            "type": "medianews",
+            "isVideo": "false",
+            "newstype": "0",
+            "topicinfo": {}
+        },
+        {
+            "id": "182411",
+            "title": "西恩背水一战 冠军难以预料",
+            "date": "2016-03-01",
+            "pic": "http://img.dota2.com.cn/dota2/00/1d/001db74376a86f389cc15772f54f46951456816206.jpg",
+            "url": "http://www.carry6.com/dota2/m/201603/0091462243.html",
+            "desc": "上海特锦赛淘汰赛前瞻，冠军花落谁家还不确定。",
+            "showComment": "true",
+            "type": "medianews",
+            "isVideo": "false",
+            "newstype": "0",
+            "topicinfo": {}
+        },
+        {
+            "id": "182401",
+            "title": "Alliance：ROTK是最好朋友",
+            "date": "2016-03-01",
+            "pic": "http://img.dota2.com.cn/dota2/08/db/08dbfc2ae59b0b99f53e61c33e69dbe11456816165.jpg",
+            "url": "http://www.carry6.com/dota2/m/201602/5595562232.html",
+            "desc": "Loda专访表示说ROTK是他最好的朋友",
+            "showComment": "true",
+            "type": "medianews",
+            "isVideo": "false",
+            "newstype": "0",
+            "topicinfo": {}
+        },
+        {
+            "id": "182391",
+            "title": "LGD：最跟得上版本中国战队",
+            "date": "2016-02-29",
+            "pic": "http://img.dota2.com.cn/dota2/cb/85/cb85aae355690b1f35f6fa5ac967c0301456731742.jpg",
+            "url": "http://www.carry6.com/dota2/m/201602/1378062192.html",
+            "desc": "ROTK的新绝活，老将的稳定发挥，帮助LGD成为中国战队在胜者组的独苗。",
+            "showComment": "true",
+            "type": "medianews",
+            "isVideo": "false",
+            "newstype": "0",
+            "topicinfo": {}
+        },
+        {
+            "id": "182381",
+            "title": "NB：我们也是神经刀",
+            "date": "2016-02-29",
+            "pic": "http://img.dota2.com.cn/dota2/e4/7f/e47f0e8bf7d29bb06184bb7c5ebdc9c41456731701.jpg",
+            "url": "http://www.carry6.com/dota2/m/201602/6153162183.html",
+            "desc": "在谈到小组赛表现时，Le直言非常不满意，希望之后加油。",
+            "showComment": "true",
+            "type": "medianews",
+            "isVideo": "false",
+            "newstype": "0",
+            "topicinfo": {}
+        }
+    ],
+    "total_pages": 121,
+    "totalRows": "2403",
+    "pageSize": 20
+}
