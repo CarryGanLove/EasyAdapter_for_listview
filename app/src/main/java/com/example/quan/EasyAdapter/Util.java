@@ -2,6 +2,8 @@ package com.example.quan.EasyAdapter;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Util {
 
@@ -49,5 +51,17 @@ public class Util {
             throw new RuntimeException("class not found " + clazz);
         }
         return getInstance(clazz);
+    }
+    public static List<ItemBean> createList() {
+        int[] colors = {R.color.color_0, R.color.color_1, R.color.color_2, R.color.color_3,
+                R.color.color_4, R.color.color_5, R.color.color_6, R.color.color_7,
+                R.color.color_8, R.color.color_9,};
+        List<ItemBean> list = new ArrayList<>();
+
+        for (int i = 0; i < colors.length * 3; i++) {
+            list.add(new ItemBean("index" + i, colors[i % colors.length]));
+
+        }
+        return list;
     }
 }
