@@ -5,6 +5,7 @@ import android.database.DataSetObserver;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Adapter;
+import android.widget.BaseAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,18 +15,19 @@ import butterknife.ButterKnife;
 /**
  * Created by GanQuan on 16/10/26.
  */
-public class InnerAdapter<T> implements Adapter {
+public class InnerAdapter<T> extends BaseAdapter {
     /**
      * viewHolder and layout bundle list
      */
     private List<Class<?>> mViewBundles = new ArrayList<>();
     BaseViewHolder viewHolder = null;
     private Context mContext;
-    private List<T> mList;
+    private BaseListAdapter<T> mAdapter;
 
-    public InnerAdapter(Context context, List<T> list) {
+    public InnerAdapter(Context context, BaseListAdapter<T> adapter) {
         mContext = context;
-        mList = list;
+        mAdapter = adapter;
+
     }
 
     /**
@@ -107,43 +109,28 @@ public class InnerAdapter<T> implements Adapter {
     private List<Class<?>> getBindViewHolderList(List<Class<?>> list) {
         if (list.size() > 0) {
         } else {
-            if (listener != null) {
-                listener.onBindViewHolder(list);
-            }
+            mAdapter.onBindViewHolder(list);
         }
         return list;
     }
 
-    @Override
-    public void registerDataSetObserver(DataSetObserver observer) {
-    }
 
-    @Override
-    public void unregisterDataSetObserver(DataSetObserver observer) {
-    }
 
     @Override
     public int getCount() {
-        return mList.size();
+        return mAdapter.getCount();
     }
 
     @Override
     public T getItem(int position) {
-        if (mList.size() > position) {
-            return mList.get(position);
-        } else
-            return null;
+        return mAdapter.getItem(position);
     }
 
     @Override
     public long getItemId(int position) {
-        return 0;
+        return mAdapter.getItemId(position);
     }
 
-    @Override
-    public boolean hasStableIds() {
-        return false;
-    }
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
@@ -162,22 +149,13 @@ public class InnerAdapter<T> implements Adapter {
 
     @Override
     public int getItemViewType(int position) {
-        return 0;
+        return mAdapter.getItemViewType(position);
     }
 
     @Override
     public int getViewTypeCount() {
-        return 0;
+        return mAdapter.getViewTypeCount();
     }
 
-    @Override
-    public boolean isEmpty() {
-        return false;
-    }
 
-    public CatchTypesListener listener;
-
-    interface CatchTypesListener<T> {
-        void onBindViewHolder(List<Class<?>> list);
-    }
 }

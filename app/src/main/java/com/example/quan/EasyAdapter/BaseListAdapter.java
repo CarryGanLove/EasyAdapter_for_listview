@@ -26,22 +26,11 @@ public abstract class BaseListAdapter<T> extends BaseAdapter {
         return mContext;
     }
 
-    //    public BaseListAdapter() {
-//        super();
-//    }
     private InnerAdapter<T> adapter;
 
     public BaseListAdapter(Context context) {
         this.mContext = context;
-
-        adapter = new InnerAdapter<T>(context, list);
-        adapter.listener = new InnerAdapter.CatchTypesListener<T>() {
-            @Override
-            public void onBindViewHolder(List<Class<?>> list) {
-                BaseListAdapter.this.onBindViewHolder(list);
-            }
-
-        };
+        adapter = new InnerAdapter<T>(context, this);
     }
 
 
@@ -78,12 +67,12 @@ public abstract class BaseListAdapter<T> extends BaseAdapter {
 
     @Override
     public int getCount() {
-        return adapter.getCount();
+        return list.size();
     }
 
     @Override
     public T getItem(int position) {
-        return adapter.getItem(position);
+        return list.get(position);
     }
 
     @Override
@@ -115,5 +104,8 @@ public abstract class BaseListAdapter<T> extends BaseAdapter {
      */
     protected abstract void onBindViewHolder(List<Class<?>> list);
 
-
+    @Override
+    public int getItemViewType(int position) {
+        return super.getItemViewType(position);
+    }
 }
