@@ -1,10 +1,8 @@
 package com.example.quan.EasyAdapter;
 
 import android.content.Context;
-import android.database.DataSetObserver;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Adapter;
 import android.widget.BaseAdapter;
 
 import java.util.ArrayList;
@@ -51,7 +49,7 @@ public class InnerAdapter<T> extends BaseAdapter {
     }
 
     protected BaseViewHolder onCreateViewHolder(int pos, List<Class<?>> ViewBundles) {
-        Class clazz = ViewBundles.get(getItemViewType(pos));
+        Class clazz = ViewBundles.get(mAdapter.getItemViewType(pos));
         return (BaseViewHolder) Util.getInstance(clazz);
     }
 
@@ -70,32 +68,8 @@ public class InnerAdapter<T> extends BaseAdapter {
      * @return
      */
     protected int getBindItemViewResId(int position) {
-        return BindLayoutMapping.getLayoutId(getViewBundles().get(getItemViewType(position)));
-//        return getViewBundles().get(getItemViewType(position)).layoutId;
+        return BindLayoutMapping.getLayoutId(getViewBundles().get(mAdapter.getItemViewType(position)));
     }
-
-    public static class BaseViewHolder<T> {
-
-        public BaseViewHolder() {
-
-        }
-
-        public Class getClassTag() {
-            return this.getClass();
-        }
-
-        public void setView(T bean, int position, Context context) {
-        }
-    }
-
-    public static class ViewBundle {
-        public ViewBundle(Class<? extends BaseViewHolder> clazz) {
-            this.vHClazz = clazz;
-        }
-
-        public Class<? extends BaseViewHolder> vHClazz;
-    }
-
 
     /**
      * get bundle list contains viewHolder and layoutId
@@ -105,32 +79,6 @@ public class InnerAdapter<T> extends BaseAdapter {
     public List<Class<?>> getViewBundles() {
         return getBindViewHolderList(mViewBundles);
     }
-
-    private List<Class<?>> getBindViewHolderList(List<Class<?>> list) {
-        if (list.size() > 0) {
-        } else {
-            mAdapter.onBindViewHolder(list);
-        }
-        return list;
-    }
-
-
-
-    @Override
-    public int getCount() {
-        return mAdapter.getCount();
-    }
-
-    @Override
-    public T getItem(int position) {
-        return mAdapter.getItem(position);
-    }
-
-    @Override
-    public long getItemId(int position) {
-        return mAdapter.getItemId(position);
-    }
-
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
@@ -142,19 +90,40 @@ public class InnerAdapter<T> extends BaseAdapter {
         }
         if (convertView == null || convertView.getTag() == null)
             throw new NullPointerException(" creatview fails");
-        onSetViewHolder(position, getItem(position), viewHolder
+        onSetViewHolder(position, mAdapter.getItem(position), viewHolder
         );
         return convertView;
     }
 
-    @Override
-    public int getItemViewType(int position) {
-        return mAdapter.getItemViewType(position);
+
+    private List<Class<?>> getBindViewHolderList(List<Class<?>> list) {
+        if (list.size() > 0) {
+        } else {
+            mAdapter.onBindViewHolder(list);
+        }
+        return list;
     }
 
     @Override
+    public int getCount() {
+        return 0;
+    }
+
+    @Override
+    public T getItem(int position) {
+        return null;
+    }
+
+
+    @Override
+    public long getItemId(int position) {
+        return 0;
+    }
+
+
+    @Override
     public int getViewTypeCount() {
-        return mAdapter.getViewTypeCount();
+        return 0;
     }
 
 

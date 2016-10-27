@@ -11,7 +11,7 @@ import butterknife.Bind;
  * Created by GanQuan on 16/10/26.
  */
 @BindLayout(id=R.layout.list_item_0)
-class FirstViewType extends InnerAdapter.BaseViewHolder<ItemBean> {
+class FirstViewType extends BaseViewHolder<ItemBean> {
     @Bind(R.id.img)
     ImageView img;
     @Bind(R.id.text)
